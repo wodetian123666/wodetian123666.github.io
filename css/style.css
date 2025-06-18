@@ -81,7 +81,7 @@ body {
 
 .box {
 	position: absolute;
-	top: 135px;
+	top: 55px;
 	left: 652px;
 	padding: 122px 50px 0;
 	width: 783px;
@@ -112,7 +112,7 @@ body {
 	font-size: 16px;
 	line-height: 62px;
 	background-color: white;
-	color: rgba(255, 255, 255, .77);
+	color: black;
 }
 
 input::placeholder {
@@ -121,7 +121,7 @@ input::placeholder {
 
 .checkBox {
 	width: 300px;
-	color: #8a90a3;
+	color: white;
 	font-size: 18px;
 	line-height: 26px;
 	margin: 5px auto;
@@ -145,14 +145,14 @@ input::placeholder {
 	width: 308px;
 	height: 111px;
 	margin: 20px auto;
-	background: url("../images/signin.png") center no-repeat;
+	background: url("../images/playforfree.png") center no-repeat;
 	text-decoration: none;
 	-webkit-transition: all 0.35s;
 	transition: all 0.35s;
 }
 
 .play:hover {
-	background: url("../images/signin.png") center no-repeat;
+	background: url("../images/playforfree.png") center no-repeat;
 }
 
 /*官网链接*/
@@ -223,8 +223,8 @@ input::placeholder {
 
 .login_here {
 	display: block;
-	font-size: 18px;
-	color: #8a90a3;
+	font-size: 20px;
+	color: #b5b9cb;
 	text-decoration: underline;
 }
 

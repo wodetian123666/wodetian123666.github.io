@@ -18,10 +18,15 @@
 	<body>
 
 		<div class="wrap">
-			<div class="bg"><img src="images/background.png" alt=""></div>
+			<div class="bg"><img style="width: 100%;height: 100%;" src="images/background.png" alt=""></div>
 
 			<div class="main">
 				<div class="box">
+					<a class="fb" href="javascript:;" onclick="FBLogin();">Sign in with Facebook</a>
+					<a class="Google" href="javascript:;">Sign in with Google</a>
+					<div class="Jump" style="font-size: 20px;color: #b5b9cb;" >
+						 Can’t Sign In? Create Account 
+					</div>
 					<div class="box_cont">
 						<form name="registerForm" id="registerForm">
 							<div class="inputBox">
@@ -35,17 +40,15 @@
 						</form>
 
 						<div class="checkBox">
-							<input type="checkbox" checked> Auto Login
+							<input type="checkbox" checked> I agree to <a href="" rel="nofollow"> the Terms of Service </a> & <a href="" rel="nofollow"> Privacy Policy </a>
 						</div>
 
 						<!--按钮-->
 						<a href="javascript:;" class="play" onclick="ldpReg();"></a>
 					</div>
-					
-					<a class="fb" href="javascript:;" onclick="FBLogin();">Sign in with Facebook</a>
-					<a class="Google" href="javascript:;">Sign in with Google</a>
-					<div class="Jump"><a href=""
-							class="login_here"> CAN’T SIGN IN? CREATE ACCOUNT </a></div>
+					<div class="Jump">
+						<a href="" class="login_here"> Already have an account? Login here </a>
+					</div>
 				</div>
 				<!--底部信息-->
 
