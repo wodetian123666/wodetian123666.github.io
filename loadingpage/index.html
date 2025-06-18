@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Wartune Ultra</title>
+		<meta name="keywords"
+			content="">
+		<meta name="description" content="">
+
+		<link rel="shortcut icon"
+			href="">
+		<link href="css/style.css" rel="stylesheet"
+			type="text/css">
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+	</head>
+
+	<body>
+
+		<div class="wrap">
+			<div class="bg"><img src="images/background.png" alt=""></div>
+
+			<div class="main">
+				<div class="box">
+					<div class="box_cont">
+						<form name="registerForm" id="registerForm">
+							<div class="inputBox">
+								<input type="text" placeholder="EMAIL" class="validate[required,custom[email]]"
+									id="reg_email">
+							</div>
+							<div class="inputBox">
+								<input type="password" placeholder="PASSWORD"
+									class="validate[required,minSize[8],maxSize[50]]" id="reg_password">
+							</div>
+						</form>
+
+						<div class="checkBox">
+							<input type="checkbox" checked> Auto Login
+						</div>
+
+						<!--按钮-->
+						<a href="javascript:;" class="play" onclick="ldpReg();"></a>
+					</div>
+					
+					<a class="fb" href="javascript:;" onclick="FBLogin();">Sign in with Facebook</a>
+					<a class="Google" href="javascript:;">Sign in with Google</a>
+					<div class="Jump"><a href=""
+							class="login_here"> CAN’T SIGN IN? CREATE ACCOUNT </a></div>
+				</div>
+				<!--底部信息-->
+
+
+
+				<div class="foot">
+					<a rel="nofollow" href="" target="_blank">Terms of
+						Use</a> |
+					<a rel="nofollow" href="" target="_blank">Privacy
+						Control</a> |
+					<a rel="nofollow" href=""
+						target="_blank">Contact us</a> |
+					<a href="">Consent preferences</a>|
+					Copyright © <script>
+						document.write(new Date().getFullYear());
+					</script> <a href="" target="_blank">Wartune Ultra</a>
+				</div>
+			</div>
+		</div>
+
+
+
+		<input type="hidden" id="source" name="source" value="" />
+		<input type="hidden" id="cno" name="cno" value="ImmortalsRevenge_GHG_FB_WW" />
+		<input type="hidden" id="scno" name="scno" value="WW-LAL-0831-LDP04" />
+		<input type="hidden" id="promoStatId" name="promoStatId" value="31901195" />
+		<input type="hidden" id="pageNo" name="pageNo" value="ir04" />
+		<input type="hidden" id="subid" name="subid" value="" />
+		<input type="hidden" id="subid1" name="subid1" value="" />
+		<input type="hidden" id="subid2" name="subid2" value="" />
+		<input type="hidden" id="subid3" name="subid3" value="" />
+		<input type="hidden" id="gameId" name="gameId" value="270" />
+		<input type="hidden" id="gameName" name="gameName" value="ImmortalsRevenge_GHG" />
+
+	</body>
+</html>
